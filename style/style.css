@@ -1,0 +1,31 @@
+html, body {margin:0px; padding:0px;}
+.container{
+	width:100%;
+	height:100%;
+}
+#iframeItem{
+	width:100%;
+	height:1000px;
+	border:0px;
+	display:none;	
+}
+#clapGif{
+	position:absolute;
+	top:50%;
+	left:26%;
+	z-index:99;
+	display:none;
+}
+#clapGif.show{display:block;}
+#clapGif.hide{display:none;}
+#woooo{
+	position:absolute;
+	top:6%;
+	left:26%;
+	z-index:99;	
+	display:none;
+}
+#woooo.show{display:block;}
+#woooo.hide{display:none;}
+.centre {width:200px; height:30px;position:absolute; left:50%; top:50%; margin-left:-100px; margin-top:-15px;}
+.centre.hide{display:none;}
